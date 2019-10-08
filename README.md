@@ -35,7 +35,8 @@ CREATE TABLE campaign_stats as(
     ON L.device_id = p.device_id
 );
 ```
-    - To answer all questions in one table, there are repeated information in the table, such as the total cost of a campaign, with two tables a better aproach would be mantain all information from campaigns in another table and just the campaign code in a table with informations from the leads.
+
+  - To answer all questions in one table, there are repeated information in the table, such as the total cost of a campaign, with two tables a better aproach would be mantain all information from campaigns in another table and just the campaign code in a table with informations from the leads.
 
 ## SQL queries answers
 
