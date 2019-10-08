@@ -92,6 +92,7 @@ CREATE TABLE campaign_stats as(
 
 ### Running Ingestion Script
   - Change the config.py file with the configurations from your postgres server and with the database name you created
+  - Unzip datasets.zip file
   - Change the paths variables to the paths of the files on your computer
   ``` python 
   google_ad_path = ''
