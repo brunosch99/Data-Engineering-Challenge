@@ -1,0 +1,5 @@
+user = "postgres"
+password = "desafio2019"
+host = "192.168.99.100"
+port = "5432"
+database = "marketing_campaign"
